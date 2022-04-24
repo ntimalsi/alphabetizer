@@ -11,7 +11,7 @@ Python
 
 ### Build and Running Instructions For UNIX
 **APPROACH 1:**
-First, install Python3, pip3 and install the module **pyinstall** ($ pip3 install pyinstaller) (PyInstaller bundles a Python application and all its dependencies into a single package.)https://pyinstaller.org/en/stable/
+First, install Python3, set python to Environment variable, install pip3 and install the module **pyinstall** ($ pip3 install pyinstaller) (PyInstaller bundles a Python application and all its dependencies into a single package.)https://pyinstaller.org/en/stable/
 
 1. Go to UNIX shell
   ```
