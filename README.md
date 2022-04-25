@@ -26,5 +26,5 @@ First, install Python3, set python to Environment variable, install pip3 and ins
   ```
   $ cd YOUR_PROJECT_DIRECTORY_PATH/
   $ chmod +x alphabetizer.py
-  $ ./alphabetizer or python3 alphabetizer.py
+  $ ./alphabetizer.py
   ```
