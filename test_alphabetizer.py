@@ -12,6 +12,16 @@ class TestAlphabetizer(unittest.TestCase):
         result = alphabetizer.alphabetizer(string)
         self.assertEqual(result, "BcdeiilMn")
 
+    def test_special(self):
+        string = "Py%%&*thon12Tech"
+        result = alphabetizer.alphabetizer(string)
+        self.assertEqual(result, "cehhnoPtTy")
+
+    def test_empty(self):
+        string = "             "
+        result = alphabetizer.alphabetizer(string)
+        self.assertEqual(result, "")
+
 
 if __name__ == '__main__':
     unittest.main()
