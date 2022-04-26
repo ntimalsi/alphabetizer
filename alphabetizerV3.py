@@ -35,7 +35,7 @@ def alphabetizer(givenString: str) -> str:
 
     return  finalString
 
-if  __name__ == '_main_':
+if  __name__ == '__main__':
     try:
         while True:
             tester = input("Enter a string to alphabetize or press Ctrl+C to interrupt:")
